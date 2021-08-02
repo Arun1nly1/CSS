@@ -1,0 +1,24 @@
+.boxes {
+  border: 3px solid lightgrey;
+}
+
+.box {
+  width: 5rem;
+  height: 5rem;
+  position: relative;
+}
+
+.box-one {
+  background-color: gold;
+}
+
+.box-two {
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  background-color: tomato;
+}
+
+.box-three {
+  background-color: hotpink;
+}
